@@ -6,7 +6,11 @@ Most of this software was developed for the purpose of [a Leaded Solder blog ent
 ## Games
 Games have been tested on MAME, as well as real Family BASIC hardware.
 
-To run on MAME, start MAME in Famicom mode with the _Family BASIC v2.1a_ ROM loaded and the keyboard expansion attached. Then add the WAV under File Manager.
+To run on MAME, start MAME in Famicom mode with the _Family BASIC v2.1a_ ROM loaded and the keyboard expansion attached.
+
+To get past the initial "what's your name?" screen in v2.1a, hold the `T` key at startup. This should take you right to a menu where you can choose between Game BASIC and the BG Editor. Select Game BASIC.
+
+Now, hit TAB to open the MAME OSD menu, and add the WAV under File Manager.
 
 Return to Family BASIC, and type `LOAD` and hit return. Open the MAME menu again and use the Tape Control menu to start playing the tape. Return to Family BASIC. After a few seconds, you should see `LOADING` and then `OK` appear. Type `RUN` and hit return to start the game.
 
